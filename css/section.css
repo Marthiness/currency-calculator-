@@ -1,0 +1,22 @@
+.section {
+    border: 5px solid rgb(0, 0, 0);
+    max-width: 700px;
+    width: 100%;
+    margin: 0 auto;
+    border-radius: 20px;
+    background: rgba(122, 113, 110, 0.548);
+}
+
+.section__paragraph {
+    width: 150px;
+    margin-right: 5px;
+    font-size: 20px;
+    font-size: 20px;
+    padding: 15px;
+}
+
+.section__paragraph {
+    padding: 20px;
+    color: rgb(206, 21, 21);
+    text-align: center;
+}

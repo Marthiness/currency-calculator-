@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkulator walut</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" />
+    <link href="css/form.css" rel="stylesheet">
+    <link href="css/body.css" rel="stylesheet">
+    <link href="css/container.css" rel="stylesheet">
+    <link href="css/section.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="js/script.js">
+    <script defer src="js/script.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body class="body">
+    <h1 class="body__header">Kalkulator walut</h1>
+    <div class="container">
+        <p>Pola wymagane oznaczone *.</p>
+        <form class="form js-form">
+            <fieldset class="form__fieldset">
+                <label>
+                    <span class="form__labelText">
+                        Kwota PLN do przeliczenia*:
+                    </span>
+                    <p>
+                        <input class="js-amount" type="number" name="PLN" required placeholder="Kwota PLN" min="1"
+                            step="any">
+                    </p>
+                </label>
+            </fieldset>
+            <p>
+                <button class="form__button js-submit">Przelicz na EURO!</button>
+            </p>
+        </form>
+    </div>
+    <section class="section">
+        <p class="section__paragraph">Otrzymujesz: <stron class="js-result"></stron>
+        </p>
+    </section>
+</body>
+
+</html>

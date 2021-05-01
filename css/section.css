@@ -4,7 +4,7 @@
     width: 100%;
     margin: 0 auto;
     border-radius: 20px;
-    background: rgba(122, 113, 110, 0.548);
+    background: rgb(0, 0, 0);
 }
 
 .section__paragraph {
@@ -17,6 +17,6 @@
 
 .section__paragraph {
     padding: 20px;
-    color: rgb(206, 21, 21);
+    color: rgb(255, 255, 255);
     text-align: center;
 }

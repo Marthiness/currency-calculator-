@@ -1,11 +1,12 @@
 body {
     font-family: "Source Sans Pro", sans-serif;
     margin: 20px;
+    background-image: url("../images/dolar.png");
 }
 
 .body__header {
     text-align: center;
-    background: rgb(50, 50, 53);
-    color: white;
+    background: rgb(17, 17, 17);
+    color: rgb(204, 142, 26);
     border-radius: 50px;
 }

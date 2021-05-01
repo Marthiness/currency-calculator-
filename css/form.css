@@ -9,6 +9,7 @@
     display: inline-block;
     margin-right: 5px;
     font-size: 20px;
+    color:white;
   }
   
   .form__button {
@@ -21,7 +22,7 @@
   }
   
   .form__button:hover {
-    background-color: rgba(109, 176, 179, 0.897);
+    background-color: rgb(93, 95, 95);
   }
   
   .form__button:active {
@@ -33,5 +34,5 @@
     width: 100%;
     border-radius: 30px;
     padding: 15px;
-    background: rgba(122, 113, 110, 0.548);
+    background: rgb(0, 0, 0);
   }

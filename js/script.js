@@ -1,17 +1,18 @@
-let form = document.querySelector(".js-form");
-let amount = document.querySelector(".js-amount");
-let result = document.querySelector(".js-result");
-let submitElement = document.querySelector(".js-submit");
+{
+    const form = document.querySelector(".js-form");
+    const amount = document.querySelector(".js-amount");
+    const result = document.querySelector(".js-result");
 
-form.addEventListener("submit", (event) => {
-    event.preventDefault();
+    form.addEventListener("submit", (event) => {
+        event.preventDefault();
 
-    let eur = 4.56;
-    let pln = +amount.value;
+        const eur = 4.56;
+        const pln = +amount.value;
 
-    let finalResult = pln / eur;
+        const finalResult = pln / eur;
 
-    console.log(finalResult);
-    result.innerText = finalResult.toFixed(2);
+        console.log(finalResult);
+        result.innerText = finalResult.toFixed(2);
 
-});
+    });
+}
